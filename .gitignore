@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+
+# Environment
+.env
+.env.example
+
+# Database/Vector Store
+data/
+vector_store/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+.docker/
+
+# Byte-compiled
+*.pyc
+
+# Distribution
+dist/
+build/
+*.egg-info/
