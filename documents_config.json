@@ -1,0 +1,42 @@
+{
+  "Computer Science One.pdf": {
+    "title": "Computer Science One",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/computer-science-i"
+  },
+  "Algorithms and Data Structures With Applications to Graphics and Geometry.pdf": {
+    "title": "Algorithms and Data Structures With Applications to Graphics and Geometry",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/algorithms-and-data-structures-with-applications-to-graphics-and-geometry"
+  },
+  "Think Data Structures - Algorithms and Information Retrieval in Java.pdf": {
+    "title": "Think Data Structures: Algorithms and Information Retrieval in Java",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/think-data-structures-algorithms-and-information-retrieval-in-java"
+  },
+  "Computer Networks - A Systems Approach.pdf": {
+    "title": "Computer Networks: A Systems Approach",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/computer-networks-a-systems-approach"
+  },
+  "Python for Everybody - Exploring Data Using Python 3.pdf": {
+    "title": "Python for Everybody: Exploring Data Using Python 3",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/python-for-everybody-exploring-data-using-python-3"
+  },
+  "Relational Databases and Microsoft Access 365 - Version 4.0.pdf": {
+    "title": "Relational Databases and Microsoft Access 365 - Version 4.0",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/relational-databases-and-microsoft-access"
+  },
+  "An Introduction to Computer Networks - Second Edition.pdf": {
+    "title": "An Introduction to Computer Networks - Second Edition",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/an-introduction-to-computer-networks"
+  },
+  "Introduction to Programming Using Java - Version 9, JavaFX Edition.pdf": {
+    "title": "Introduction to Programming Using Java - Eighth Edition",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/introduction-to-programming-using-java-seventh-edition"
+  },
+  "Computer Networking - Principles, Protocols and Practice.pdf": {
+    "title": "Computer Networking : Principles, Protocols and Practice",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/computer-networking-principles-protocols-and-practice"
+  },
+  "Database Design - 2nd Edition.pdf": {
+    "title": "Database Design - 2nd Edition",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/database-design-2nd-edition"
+  }
+}
