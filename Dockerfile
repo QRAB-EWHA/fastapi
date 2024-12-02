@@ -7,6 +7,8 @@ WORKDIR /app
 # 3. 로컬에서 필요한 파일을 컨테이너로 복사
 COPY requirements.txt requirements.txt
 COPY ./data /app/data
+COPY ./vector_store /app/vector_store
+COPY ./chroma.sqlite3 /app/vector_store/chroma.sqlite3
 COPY . .
 
 # 4. 환경 변수 파일 복사
