@@ -2,16 +2,16 @@
 
 QRAB 프로젝트의 FastAPI 백엔드 레포지토리입니다. 이 서버는 RAG 기반 서비스 등 추가적인 AI 연동 기능을 제공하며, Chroma와 같은 Vector DB를 활용합니다.
 
-## About Source Code
+## 🎈About Source Code
 
 - **Framework**: FastAPI  
 - **Server**: Uvicorn  
 - **DB**: ChromaDB (Vector DB)
 - **Key Libraries**: fastapi, uvicorn, chromadb, openai, pydantic 등
 
-## Prerequisites
+## 🎈Prerequisites
 
-다음 환경이 필요합니다.
+다음 소프트웨어 및 환경이 필요합니다.
 
 1. **Python 3.10+**  
    - Python 버전 확인:  
@@ -29,7 +29,7 @@ QRAB 프로젝트의 FastAPI 백엔드 레포지토리입니다. 이 서버는 R
 4. **필요 라이브러리 설치**  
    - `requirements.txt` 파일에 필요한 라이브러리가 정의되어 있습니다.
 
-## How to Build
+## 🎈How to Build
 
 1. **레포지토리 클론**  
    ```bash
@@ -62,7 +62,7 @@ QRAB 프로젝트의 FastAPI 백엔드 레포지토리입니다. 이 서버는 R
    OPENAI_API_KEY=YOUR_OPENAI_API_KEY
    ```
 
-## How to Run
+## 🎈How to Run
 다음 명령어로 FastAPI 서버를 실행할 수 있습니다.
 ```bash
 python -m uvicorn app.main:app --reload
