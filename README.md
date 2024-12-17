@@ -31,3 +31,30 @@ QRAB 프로젝트의 FastAPI 백엔드 레포지토리입니다. 이 서버는 R
    ```bash
    git clone https://github.com/QRAB-EWHA/fastapi.git
    cd fastapi
+   ```
+
+2. **가상환경 샟성 및 활성화**
+   - Mac/Linux:
+     ```bash
+     python -m venv venv
+     source venv/bin/activate
+     ```
+   - Windows:
+     ```bash
+     python -m venv venv
+     venv\Scripts\activate
+     ```
+     
+3. **의존성 설치**
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
+4. **환경변수 설정(.env 파일 생성)**
+   프로젝트 루트 디렉토리에 `.env` 파일을 생성하고 다음 내용을 추가합니다.
+   .env 파일을 받은 경우, 해당 파일의 내용을 그대로 붙여넣기 해 주세요.
+   ```bash
+   OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+   ```
+
+## How to Run
