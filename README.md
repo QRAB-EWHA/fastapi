@@ -6,8 +6,19 @@ QRAB 프로젝트의 FastAPI 백엔드 레포지토리입니다. 이 서버는 R
 
 - **Framework**: FastAPI  
 - **Server**: Uvicorn  
-- **DB**: ChromaDB (Vector DB)
-- **Key Libraries**: fastapi, uvicorn, chromadb, openai, pydantic 등
+- **Core Functionality**:  
+  - RAG( Retrieval-Augmented Generation ) 기반 추천 및 컨텐츠 분석 서비스  
+  - OpenAI API 연동 및 자연어 처리 기능 제공  
+  - ChromaDB 등 Vector DB를 활용한 벡터 검색 및 임베딩 기반 정보 조회
+- **Key Libraries**:
+  - **fastapi**: 웹 서버 엔드포인트 정의 및 요청/응답 처리
+  - **uvicorn**: ASGI 서버 실행
+  - **openai**: OpenAI API 연동을 통한 LLM 활용
+  - **langchain**: LLM 기반 워크플로우 및 체인 관리
+  - **chromadb**: Vector DB 활용을 통한 유사도 검색 및 임베딩 저장
+  - **transformers / sentence-transformers**: 임베딩 모델 및 NLP 모델 사용
+  - **pydantic**: 데이터 검증 및 스키마 정의
+  - **requests / httpx**: HTTP 요청을 통한 외부 API 연동
 
 ## 🎈Prerequisites
 
