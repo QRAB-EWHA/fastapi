@@ -38,6 +38,7 @@ QRAB 프로젝트의 FastAPI 백엔드 레포지토리입니다. 이 서버는 R
    ```
 
 2. **가상환경 생성 및 활성화**
+   가상환경을 생성하고 활성화합니다. 가상환경이 제대로 활성화되면 터미널 프롬프트 앞에 (venv)가 표시됩니다.
    - Mac/Linux:
      ```bash
      python -m venv venv
@@ -49,12 +50,12 @@ QRAB 프로젝트의 FastAPI 백엔드 레포지토리입니다. 이 서버는 R
      venv\Scripts\activate
      ```
      
-3. **의존성 설치**
+4. **의존성 설치**
    ```bash
    pip install -r requirements.txt
    ```
    
-4. **환경변수 설정(.env 파일 생성)**
+5. **환경변수 설정(.env 파일 생성)**
    프로젝트 루트 디렉토리에 `.env` 파일을 생성하고 다음 내용을 추가합니다.
    .env 파일을 받은 경우, 해당 파일의 내용을 그대로 붙여넣기 해 주세요.
    ```bash
@@ -62,3 +63,10 @@ QRAB 프로젝트의 FastAPI 백엔드 레포지토리입니다. 이 서버는 R
    ```
 
 ## How to Run
+다음 명령어로 FastAPI 서버를 실행할 수 있습니다.
+```bash
+python -m uvicorn app.main:app --reload
+```
+
+서버 실행 후 다음 URL에서 Swagger UI를 통해 API를 테스트할 수 있습니다.
+http://localhost:8000/docs
